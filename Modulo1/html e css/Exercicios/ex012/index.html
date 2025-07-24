@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas!</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p> Aumente e diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem grande">
+
+    </picture>
+    <h1>Reproduzindo aúdios...</h1>
+    <p>Vamos aprender a usar áudios!</p>
+    <audio src="midia/videoplayback.m4a" controls ></audio>
+    <!--    Aúdio assim tbm pode 
+    <audio>
+        source src="midia/videoplayback.m4a" type="audio/mpeg">
+    </audio>
+    -->
+</body>
+</html>
